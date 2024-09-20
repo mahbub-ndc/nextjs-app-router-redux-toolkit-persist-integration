@@ -4,7 +4,7 @@ import "./globals.css";
 import dynamic from "next/dynamic";
 
 const ReduxProvider = dynamic(() => import("@/store/redux-provider"), {
-  ssr: false
+  ssr: false,
 });
 
 const inter = Inter({ subsets: ["latin"] });
